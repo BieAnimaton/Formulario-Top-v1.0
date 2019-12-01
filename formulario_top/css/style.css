@@ -1,0 +1,74 @@
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(150, 79, 176, 1);
+    color: white;
+    font-size: 32px;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60%;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(105, 58, 122, 1);
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20x;
+    width: 40%;
+}
+
+form fieldset, form input, form legend {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+form input[type="text"],[type="password"],[type="email"] {
+    width: 570px;
+    padding-left: 20px;
+    margin-top: 5px;
+    display: block;
+}
+
+form input[type="radio"] {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form label {
+    text-transform: uppercase;
+    color: wheat;
+    padding: 10px;
+}
+
+form legend {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+form fieldset {
+    margin-bottom: 10px;
+}
+
+textarea#idTextArea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

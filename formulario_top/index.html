@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Aleatório</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h2 id="title">Site de Cadastro</h2>
+        <div id="inicio">
+            <form action="php/welcome.php" method="POST">
+                <fieldset><legend>Básico</legend>
+                    <fieldset id="basic_02">
+                        <label for="idName">Nome</label><input type="text" name="tName" id="idName" placeholder="Digite seu nome"> <br>
+                        <label for="idEmail">Email</label> <input type="email" name="tEmail" id="idEmail" placeholder="Digite seu email"> <br>
+                        <label for="idPass">Senha</label><input type="password" name="tPass" id="idPass" placeholder="Digite sua senha"> <br>
+                    </fieldset>
+                    <fieldset><legend>Sexo</legend>
+                        <input type="radio" name="tSexo" id="idMasc"><label for="idMasc">Masculino</label> <br>
+                        <input type="radio" name="tSexo" id="idFem"><label for="idFem">Feminino</label> <br>
+                    </fieldset>
+                </fieldset>
+                <fieldset><legend>Resenha</legend>
+                    <textarea name="tTextArea" id="idTextArea" cols="83" rows="6"></textarea>
+                </fieldset>
+                <input type="submit" value="Enviar formulário">
+            </form>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>
